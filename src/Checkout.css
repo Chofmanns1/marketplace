@@ -1,5 +1,11 @@
 .checkout__ad {
     width: 100%;
-    margin-bottom: 10px;
-    max-height: 150px;
+    z-index: -1;
+    margin-bottom: -150px;
+    max-height: 250px;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.checkout {
+    align-items: center;
 }

@@ -8,6 +8,7 @@ import Login from './Login';
 //import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { auth } from "./firebase"
 import { useStateValue } from './StateProvider';
+import Perfil from './Perfil';
 
 
 function App() {
@@ -55,6 +56,13 @@ function App() {
           <Route path="/login" element={
             [
               <Login />
+            ]
+          } />
+
+          <Route path="/perfil" element={
+            [
+              <Header />,
+              <Perfil />
             ]
           } />
 

@@ -11,7 +11,7 @@ function Checkout() {
             <div className='checkout__left'>
                 <img
                     className='checkout__ad'
-                    src='https://www.wordstream.com/wp-content/uploads/2021/07/persuasive-ads-coca-cola.jpg'
+                    src='https://images.pexels.com/photos/734973/pexels-photo-734973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
                     alt=''
                 />
             </div>
